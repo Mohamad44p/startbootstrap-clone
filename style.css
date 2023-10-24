@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url(image/header-bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding: 20%;
+    margin: 0;
+    margin-bottom: 70px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 30px ;
+    right: 0;
+    left: 0;
+}
+
+#logo_image {
+    height: 2rem;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+#navbar li {
+    padding: 0 15px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+#navbar ul li  #yello-a{
+    color: #ffc800;
+}
+#Welcome-id{
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+#big-text{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+}
+#button-div {
+    text-align: center;
+}
+
+#button {
+    background-color: rgb(255, 200, 0);
+    color:  #fff; 
+    font-size: 25px;
+    padding: 30px 80px; 
+    border: none; 
+    cursor: pointer;
+    border-radius:8px ; 
+    box-shadow: -15px 15px 10px rgba(255, 200, 1, 0.2);
+}
+#button:hover {
+    background-color: rgb(204, 160, 0);
+    color:  #fff; 
+    font-size: 25px;
+    padding: 30px 80px; 
+    border: none; 
+    cursor: pointer;
+    border-radius:8px ; 
+    box-shadow: 15px 15px 10px rgba(204, 160, 0, 0.2);
+}
+.Padding{
+    padding: 96px;
+}
+#Services{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#Services-p{
+    text-align: center;
+    margin-bottom: 10px;
+
+    font-style: italic;
+}
+
+.M{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 96px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.service-box {
+    display: inline-block;
+    width: 30%; 
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+
+.service-icon {
+    background-color: #ffc800;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    line-height: 80px;
+
+}
+
+.service-info {
+    text-align: center;
+    margin: 30px 25px;
+}
+
+.service-title {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 16px;
+}
+
+
+
+
+#PORTFOLIO {
+    text-align: center;
+    color:  black;
+    padding: 20px;
+}
+
+#PORTFOLIO-h1 {
+    font-size: 36px;
+}
+
+.image-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 96px;
+}
+
+.portfolio-item {
+    width: 50%; 
+    margin-bottom: 20px;
+    text-align: center;
+    background: hsl(0, 0%, 96%); 
+    padding: 10px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-description {
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+}
+.Firstflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secoundflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+#CONTACT-TITLE h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 36px;
+    text-align: center;
+}
+#CONTACT-TITLE p{
+    color: hsl(0, 2%, 70%);
+    font-size: 16px;
+    text-align: center;
+}
+
+.image {
+    background-image: url('map-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20%;
+    margin: 0;
+    margin-bottom: 70px;
+    background-color: black;
+    color: white; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#CONTACT-TITLE {
+    margin: 20px 0;
+}
+
+.Form { 
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 30px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+}
+
+textarea {
+    height: 150px;
+    display: flex;
+    
+}
+
+.sumbit-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#sumbit {
+    background-color: rgb(255, 200, 0);
+    color: #fff;
+    font-size: 20px;
+    padding: 30px 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+#submit:hover {
+    background-color: rgb(204, 160, 0);
+    box-shadow: 15px 15px 10px rgba(204, 160, 0, 0.2);
+}
